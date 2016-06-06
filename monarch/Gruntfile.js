@@ -41,7 +41,7 @@ module.exports = function(grunt) {
                 dest: '<%= meta.pages_distribution %>/admin-template/'
             },
 
-            /* uncomment this for AngularJS gen 
+            /* uncomment this for AngularJS gen */
             create_angular_files: {
                 options : {
                     layout: undefined,
@@ -51,7 +51,7 @@ module.exports = function(grunt) {
                 src: 'src/pages/admin/*.hbs',
                 dest: '<%= meta.pages_distribution %>/admin-template/pages/'
             },
-            */
+            
            
             create_admin_blank_files: {
                 options: {
