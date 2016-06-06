@@ -31,7 +31,7 @@ module.exports = function(grunt) {
                 layout: 'admin-layout.hbs',
                 layoutdir: 'src/layouts',
                 production: false,
-                angular: false,
+                angular: true,
                 partials: ['src/partials/admin/**/*.hbs'],
                 flatten: true
             },
