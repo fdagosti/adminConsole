@@ -83,7 +83,7 @@
 #page-header .user-account-btn > a.user-profile span {
     margin-right: 10px;
     float: left;
-    width: 96px;
+    /*width: 96px; Why is this necessary? this is making the name go to the next line*/
 }
 #page-header .user-account-btn > a.user-profile .glyph-icon {
     width: 28px;

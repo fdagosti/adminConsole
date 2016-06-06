@@ -21,7 +21,7 @@
 				$(window).load(function() {
 					$('body').children().on('click.superclick', function() {
 						var $allMenus = $('.sf-js-enabled');
-						$allMenus.superclick('reset');
+						// $allMenus.superclick('reset');
 					});
 				});
 			})(),

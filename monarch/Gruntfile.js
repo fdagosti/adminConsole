@@ -106,7 +106,7 @@ module.exports = function(grunt) {
                 files: [
                     'src/pages/admin/**/*.hbs'
                 ],
-                tasks: ['create-admin-template']
+                tasks: ['create-angular-template']
 
             }
 
